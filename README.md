@@ -5,7 +5,7 @@ The repository is broken into two parts, my code and
 my typed mathematics assignments which show how I go
 about writing proofs and explaining things.
 
-For curation purposes, here are descriptions of the courses, what I learned and which files are the most interesting.
+For curation purposes, here are descriptions of the courses, what I learned and which files are most interesting.
 
 ## Statistics and Probability for Computer Science
 
@@ -27,8 +27,25 @@ I used a gradient descent algorithm to predict whether people had cancer. It was
 Homework_8.pdf: question 2  
 I used simulation to figure out how much inventory a store should order in a long-term weekly replenishment contract to maximize profits and have stable profit.
 
-Homework_5.pdf: last section  
-I proved, using Bayes Theorem, that 100% of serial killers drink water.
+## Introduction to Proofs
+
+This class focused on:
+
+Formal predicate logic and set theory.
+* Proof techniques including: straight forward, induction (strong and weak), contradiction, method of descent.
+* Formal functions, including proving bijections, relations and their connection to set theory, cardinality and infinite sets.
+* Sequences and series, partial sum formula derivation, cauchy sequences and formal limits.
+* Number theory, including Euclid's algorithm and fundamental theorem of arithmetic.
+
+The most interesting files:
+
+MATH_347_HW5.pdf: the first problem  
+I prove there are as many real numbers between 0 and 1 as there are real numbers.
+
+MATH_347_HW9.pdf: 1.2 and 1.4  
+I build up the mathematical framework necessary to prove x^3+5x is divisible by 6 when x is an integer.
+Then I show 13^21+14^14 is a composite number.
+
 
 
 
