@@ -1,5 +1,9 @@
-#include <stdio.h>
+/*
+	Algorithm to produce the "humble numbers."
+	Humble numbers have only 2,3,5, and 7 as factors.
+*/
 
+#include <stdio.h>
 #include <string.h>
 
 // #define errprint(a,b) fprintf(stderr, a,b);

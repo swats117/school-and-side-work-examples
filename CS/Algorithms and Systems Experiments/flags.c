@@ -1,3 +1,8 @@
+/*
+	Part of Raytheon's application process was to decypher their cypher. 
+	Dec decrypts things encrypted by enc.
+*/
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>

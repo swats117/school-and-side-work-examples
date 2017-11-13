@@ -1,3 +1,26 @@
+/*
+	Premise of the problem is: 
+
+		You have a mountain and a there is tunnel you want
+		to make through the mountain to collect the gold.
+
+				^
+			   / \
+			  /   \
+			 /     \
+			 -------
+		  _4_1_7_4_7_10_
+		 / 			   \
+		/			    \
+		However, you can only mine one section of the mountain
+		starting from either side, in a given year. Also
+		the price of gold is set by 
+		(ammount of gold) * (year mined - current year + 1)
+		You also have to keep mining till its empty.
+		How do you optimize the mining? Algorithm should run
+		in polynomial time. 
+*/
+
 #include <cstdio>
 
 

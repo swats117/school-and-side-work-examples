@@ -1,3 +1,7 @@
+/*
+	An algorithm to keep track of the median of a set of numbers using two heaps.
+*/
+
 #include <cstdio>
 #include <queue>
 

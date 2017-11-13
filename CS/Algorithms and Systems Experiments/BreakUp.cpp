@@ -1,3 +1,15 @@
+/*
+	You have a book robot. It takes a stack of books and splays them. 
+	You want minimal wear on the robot. 
+	The robot picks up a stack of books then creates two piles of sequential books from it.
+	It keeps picking up a stack of books and splitting them into two piles until only
+	single book piles remain. 
+	The wear cost to the robot is the weight of the stacks it picks up.
+	Given a stack of books. What is the optimal order of splitting to minimize wear on
+	the robot? Algorithm runs in polynomial time.
+*/
+
+
 #include <cstdio>
 #include <string.h>
 #include <queue>

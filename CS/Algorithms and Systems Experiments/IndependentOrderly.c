@@ -1,4 +1,6 @@
-
+/*
+	A strange pseudocode to find the largest independent set in a k-orderly graph.
+*/
 
 
 int getLookup#(start, bool* bucketContents){

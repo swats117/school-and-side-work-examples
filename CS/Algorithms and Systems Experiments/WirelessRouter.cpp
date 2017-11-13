@@ -1,3 +1,5 @@
+/* Note: algorithm suboptimal. */
+
 /* You are given n locations l_1,...,l_n of people living on Red street. Here l_i is the distance of the ith
 person from the beginning of the street in feet (Red street is straight), where l_1 < l_2 < · · · < l_n.
 We would like to install k wireless routers to serve these people's needs.

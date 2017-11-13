@@ -1,3 +1,6 @@
+/* This was before I learned about DP, but essentially it was a routing
+	algorithm for a fictional fire department */
+
 #include <cstdio>
 #include <stdio.h>
 #include <string>
