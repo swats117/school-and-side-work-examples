@@ -1,0 +1,5 @@
+import numpy as np
+import math
+
+[math.ceil(x*math.log(float(x),2)) for x in range(1,20)]
+

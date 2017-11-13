@@ -1,0 +1,40 @@
+
+def handler: 
+	if working
+		working <- false
+		set timer for 5 minutes
+		results <- roll 5 dice 
+		result <- sum(results)
+		result <- result % 5
+		
+	else
+		working <- true 
+		set timer for 25 minutes
+		
+
+
+def main:
+
+signal(timeout, handler)
+
+Set Timer for 25 minutes
+
+while(homework != "done"):
+
+	if working
+		Do homework
+
+	else{
+		else if result == 0
+			Browse Reddit
+		else if result == 1
+			Go on Facebook
+		else if result == 2
+			Go on YouTube
+		else if result == 3
+			Text Alan Random Crap
+		else if result == 4
+			Speculate on location of Amazon Headquarters
+	}
+
+

@@ -1,0 +1,1 @@
+lookup_dict={"Arrest":0,"Arson":1,"Assault":2,"Burglary":3,"Robbery":4,"Shooting":5,"Theft":6,"Vandalism":7,"Other":8}
