@@ -1,0 +1,58 @@
+\hypertarget{class_source_files_1_1_piece}{}\section{Source\+Files.\+Piece Class Reference}
+\label{class_source_files_1_1_piece}\index{Source\+Files.\+Piece@{Source\+Files.\+Piece}}
+Inheritance diagram for Source\+Files.\+Piece\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.435897cm]{class_source_files_1_1_piece}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_source_files_1_1_piece_a9202b7ac4e29e14713178189ede3e3bb}\label{class_source_files_1_1_piece_a9202b7ac4e29e14713178189ede3e3bb}} 
+abstract Array\+List$<$ \mbox{\hyperlink{class_source_files_1_1_coordinate}{Coordinate}} $>$ {\bfseries get\+Movement\+Path} (\mbox{\hyperlink{class_source_files_1_1_coordinate}{Coordinate}} start, \mbox{\hyperlink{class_source_files_1_1_coordinate}{Coordinate}} dest, \mbox{\hyperlink{class_source_files_1_1_field}{Field}} f)
+\item 
+\mbox{\Hypertarget{class_source_files_1_1_piece_a3d4023342377075e32823252d4177813}\label{class_source_files_1_1_piece_a3d4023342377075e32823252d4177813}} 
+abstract Array\+List$<$ \mbox{\hyperlink{class_source_files_1_1_coordinate}{Coordinate}} $>$ {\bfseries get\+All\+Possible\+Moves} (\mbox{\hyperlink{class_source_files_1_1_coordinate}{Coordinate}} start)
+\item 
+\mbox{\Hypertarget{class_source_files_1_1_piece_a2b70c2f3bff883dca506fb3380c1e0b0}\label{class_source_files_1_1_piece_a2b70c2f3bff883dca506fb3380c1e0b0}} 
+\mbox{\hyperlink{class_g_u_i_1_1_colored_polygon}{Colored\+Polygon}} {\bfseries get\+Colored\+Polygon} (int size)
+\item 
+\mbox{\Hypertarget{class_source_files_1_1_piece_ad78c3c615a21583d0c3864676a7effe1}\label{class_source_files_1_1_piece_ad78c3c615a21583d0c3864676a7effe1}} 
+boolean {\bfseries can\+Move} (\mbox{\hyperlink{class_source_files_1_1_coordinate}{Coordinate}} start, \mbox{\hyperlink{class_source_files_1_1_coordinate}{Coordinate}} dest, \mbox{\hyperlink{class_source_files_1_1_field}{Field}} field)
+\item 
+\mbox{\Hypertarget{class_source_files_1_1_piece_af32e028a8380a2510f53640fdd21f8e1}\label{class_source_files_1_1_piece_af32e028a8380a2510f53640fdd21f8e1}} 
+boolean {\bfseries is\+Path\+Clear} (Array\+List$<$ \mbox{\hyperlink{class_source_files_1_1_coordinate}{Coordinate}} $>$ atck\+Path, \mbox{\hyperlink{class_source_files_1_1_field}{Field}} field)
+\item 
+\mbox{\Hypertarget{class_source_files_1_1_piece_a169f789ef974ed5a26d2243cae68ded2}\label{class_source_files_1_1_piece_a169f789ef974ed5a26d2243cae68ded2}} 
+int {\bfseries sign\+Of\+Int} (int x)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_source_files_1_1_piece_ac2df67aee7891ed3358bca05e69004dd}\label{class_source_files_1_1_piece_ac2df67aee7891ed3358bca05e69004dd}} 
+int {\bfseries team}
+\item 
+\mbox{\Hypertarget{class_source_files_1_1_piece_adace1c175f7110d4dea78e90eb115f65}\label{class_source_files_1_1_piece_adace1c175f7110d4dea78e90eb115f65}} 
+int {\bfseries type}
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_source_files_1_1_piece_ac9c69ae74a8a857fa5b6f0b670fe8763}\label{class_source_files_1_1_piece_ac9c69ae74a8a857fa5b6f0b670fe8763}} 
+abstract Array\+List$<$ int\mbox{[}$\,$\mbox{]}$>$ {\bfseries draw\+Yourself} (int size)
+\item 
+\mbox{\Hypertarget{class_source_files_1_1_piece_a4de07a0ea658f8fa33844fcd76970a40}\label{class_source_files_1_1_piece_a4de07a0ea658f8fa33844fcd76970a40}} 
+Array\+List$<$ \mbox{\hyperlink{class_source_files_1_1_coordinate}{Coordinate}} $>$ {\bfseries diagonal\+Path} (\mbox{\hyperlink{class_source_files_1_1_coordinate}{Coordinate}} start, int deltaX, int deltaY)
+\item 
+\mbox{\Hypertarget{class_source_files_1_1_piece_af895622fde0a44fb85a9c8600cef2eac}\label{class_source_files_1_1_piece_af895622fde0a44fb85a9c8600cef2eac}} 
+Array\+List$<$ \mbox{\hyperlink{class_source_files_1_1_coordinate}{Coordinate}} $>$ {\bfseries horizontal\+Path} (\mbox{\hyperlink{class_source_files_1_1_coordinate}{Coordinate}} start, int deltaX, int deltaY)
+\item 
+\mbox{\Hypertarget{class_source_files_1_1_piece_a9e9c00c22f7ba2396a09f231c976e792}\label{class_source_files_1_1_piece_a9e9c00c22f7ba2396a09f231c976e792}} 
+void {\bfseries new\+Point} (Array\+List$<$ int\mbox{[}$\,$\mbox{]}$>$ points, int width, String dir)
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/\+Charles\+B\+Swarts/eclipse-\/workspace/\+Chess\+Library/src/\+Source\+Files/Piece.\+java\end{DoxyCompactItemize}
